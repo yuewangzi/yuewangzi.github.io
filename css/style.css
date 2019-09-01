@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.4rem;
+    font-family: "Roboto Slab";
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.navText {
+    color: white;
+    font-size: 3.4rem;
+    font-family: "Roboto Slab";
+}
+
+.navBar a {
+    color: white;
+    font-size: 3.4rem;
+    text-decoration: underline;
+    font-family: "Roboto Slab";
+    transition: all .2s ease-in-out;
+}
+
+.navBar a:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.gray {
+    background-color: #3f3f3f;
+}
+
+.pink {
+    background-color: #fbe9ff;
+}
+
+.mainContentRow {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    flex-wrap: wrap;
+}
+
+#navigationIcon {
+    display: flex;
+    flex-direction: column;
+}
+
+#navigationIcon a {
+    font-size: 1.4rem;
+}
+
+#profilePicture {
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    margin: auto;
+}
+
+#profilePicture :hover{
+    -webkit-animation: wiggle 0.25s infinite;
+}
+
+@keyframes wiggle {
+    0% {
+        -moz-transform: rotate(-1deg);
+    }
+    50% {
+        -moz-transform: rotate(1deg);
+    }
+}
+
+#profileText {
+    text-align: center;
+    font-size: 2rem;
+    width: 50rem;
+    margin: auto;
+    line-height: 1.5em;
+}
+
+.specialButton {
+    background-color: #614d75;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+#profilePicture img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.imageDisplayRow img {
+
+    width: 20rem;
+    height: 20rem;
+
+}
+
+#navigationIcon img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.aboutProfile img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.imageDisplayRow {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: flex-end;
+}
+
+.footer {
+    color: white;
+    background-color: #070617;
+    padding: 3rem;
+}
+
+.footerText {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footerLinks img {
+    margin: 0.5rem;
+}
+
+#aboutRow {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8rem;
+    padding: 2rem;
+    line-height: 1.5em;
+}
+
+.aboutProfile {
+    width: 50rem;
+    margin: auto;
+}
+
+.aboutLinksRow {
+    width: 100rem;
+    margin: auto;
+}
+
+.aboutLinksRow h1 {
+    font-size: 2.4rem;
+}
+
+.aboutLink {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+#graphicsRow {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#graphicsTitle {
+    text-align: center;
+}
+
+#graphicsRow img {
+    margin: auto;
+    padding: 1rem;
+    width: 50rem;
+    height: 50rem;
+}
+
+#graphicsRow img:hover{
+    -webkit-animation: wiggle 0.25s infinite;
+}
+
+#tattoosRow {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tattooContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+
+}
+
+.tattooContainer img {
+
+    width: 50rem;
+    height: 50rem;
+    margin: auto;
+}
+
+.footerLinks img {
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+
+}
+
+.tattooContainer a {
+    color: #cb8300;
+    font-size: 2.4rem;
+}
+
+.tattooInfoBox {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: auto;
+    width: 100rem;
+}
+
+#fashionRow {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#contactRow {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 1.2rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    margin-top: 0.6rem;
+    margin-bottom: 1.6rem;
+    resize: vertical;
+    font-size: 1.6rem;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1.2rem 2.0rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 2.4rem;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    font-size: 2.4rem;
+}
+
+.container {
+    border-radius: 1rem;
+    background-color: #f2f2f2;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 2.4rem;
+}
